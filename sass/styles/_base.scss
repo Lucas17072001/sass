@@ -1,0 +1,33 @@
+$cor-fundo-comum: #f0f8ff; 
+$cor-texto-comum: #2f4f4f; 
+$cor-fundo-secao: #ffffff; 
+$cor-borda-secao: #dcdcdc; 
+
+
+$cor-titulo-secao: #8a2be2; 
+$cor-texto-secao: #4b0082; 
+
+
+$cor-sombra: rgba(0, 0, 0, 0.1); 
+
+body {
+  background-color: $cor-fundo-comum;
+  color: $cor-texto-comum;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+
+section {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px $cor-sombra;
+  background-color: $cor-fundo-secao;
+  border-left: 5px solid $cor-borda-secao;
+}
+
+

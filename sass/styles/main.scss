@@ -1,0 +1,24 @@
+// Importação dos arquivos SASS
+@import 'base';
+@import 'room';
+
+// Estilo Global
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5; 
+  color: #2f4f4f; 
+}
+
+header {
+  background-color: #6a5acd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #6a5acd;
+}

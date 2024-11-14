@@ -1,0 +1,85 @@
+.entrada {
+  @extend %comum;
+
+  background-color: #ffb6c1;
+  border-left: 5px solid #d2691e; 
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-style: italic;
+  }
+}
+
+.sala {
+  @extend %comum; 
+
+  background-color: #f5f5dc; 
+  border-left: 5px solid #4682b4; 
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}
+
+.cozinha {
+  @extend %comum; 
+
+  background-color: #fafad2; 
+  border-left: 5px solid #ff4500; 
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+}
+
+.quarto {
+  @extend %comum; 
+
+  background-color: #f0fff0; 
+  border-left: 5px solid #32cd32; 
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    color: #6b8e23;
+  }
+}
+
+.banheiro {
+  @extend %comum;
+
+  background-color: #e0ffff; 
+  border-left: 5px solid #8b0000; 
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 1em;
+    color: #8b0000; 
+  }
+}
+
+
+%comum {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f0f8ff; 
+  color: #2f4f4f; 
+}
